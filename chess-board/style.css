@@ -1,0 +1,20 @@
+.row {
+  display: flex;
+}
+
+.cell {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+}
+
+.row:nth-child(even) .cell:nth-child(odd) {
+  background-color: black;
+}
+
+.row:nth-child(odd) .cell:nth-child(even) {
+  background-color: black;
+}
+.active {
+  background-color: red !important;
+}
